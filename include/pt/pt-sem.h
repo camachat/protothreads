@@ -61,7 +61,7 @@
  * example.
  *
  \code
-#include "pt-sem.h"
+#include <pt/pt-sem.h>
 
 #define NUM_ITEMS 32
 #define BUFSIZE 8
@@ -160,7 +160,7 @@ PT_THREAD(driver_thread(struct pt *pt))
 #ifndef __PT_SEM_H__
 #define __PT_SEM_H__
 
-#include "pt.h"
+#include <pt/pt.h>
 
 struct pt_sem {
   unsigned int count;

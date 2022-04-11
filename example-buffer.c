@@ -40,7 +40,7 @@
 #endif
 #include <stdio.h>
 
-#include "pt-sem.h"
+#include <pt/pt-sem.h>
  
 #define NUM_ITEMS 32
 #define BUFSIZE 8

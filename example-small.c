@@ -5,7 +5,7 @@
  */
 
 /* We must always include pt.h in our protothreads code. */
-#include "pt.h"
+#include <pt/pt.h>
 
 #include <stdio.h> /* For printf(). */
 
